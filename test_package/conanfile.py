@@ -3,7 +3,7 @@ import os
 
 # This easily allows to copy the package in other user or channel
 channel = os.getenv("CONAN_CHANNEL", "testing")
-username = os.getenv("CONAN_USERNAME", "demo")
+username = os.getenv("CONAN_USERNAME", "TimSimpson")
 
 class HelloReuseConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
